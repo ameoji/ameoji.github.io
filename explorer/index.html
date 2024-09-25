@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <base target="_top">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/assets/js/explorer.js"></script>
+  <link rel="stylesheet" href="/assets/css/common.css">
+  </head>
+
+<body class="h-100" style="background-color: aliceblue;">
+  <div class="d-flex h-100">
+    <div class="px-2 fixed-top" style="width: 20%;">
+      <div>
+        <a id="lv8" class="btn btn-secondary my-1 w-100" href="https://www.metatft.com/explorer?tab=comps" target="_blank">Lv.8のページを開く</a>
+      </div>
+      <div>
+        <a id="lv9" class="btn btn-secondary my-1 w-100" href="https://www.metatft.com/explorer?tab=comps" target="_blank">Lv.9のページを開く</a>
+      </div>
+      <div class="px-2 my-2 h-100">
+        <button type="button" class="btn btn-danger my-1 w-100" onclick="resetAll()">リセット</button>
+        <button type="button" class="btn btn-warning my-1 w-100" onclick="reset5()">5コスだけリセット</button>
+        <button type="button" class="btn btn-warning my-1 w-100" onclick="exclude5()">5コスを含まない</button>
+        <button type="button" class="btn btn-warning my-1 w-100" onclick="exclude5Star2()">5コス星2を含まない</button>
+        <button type="button" class="btn btn-primary my-1 w-100" onclick="reset23()">2,3コスだけをリセット</button>
+        <button type="button" class="btn btn-primary my-1 w-100" onclick="exclude23Star3()">2,3コス星3を含まない</button>
+        <button type="button" class="btn btn-info my-1 w-100" onclick="reset1()">1コスだけをリセット</button>
+        <button type="button" class="btn btn-info my-1 w-100" onclick="exclude1Star3()">1コス星3を含まない</button>
+        <button type="button" class="btn btn-success my-1 w-100" onclick="resetEmblem()">紋章だけをリセット</button>
+        <button type="button" class="btn btn-success my-1 w-100" onclick="excludeEmblem()">紋章を含まない</button>
+      </div>
+    </div>
+    <div class="px-2 h-100" style="width: 25%;"></div>
+    <div class="mx-1 my-1 h-100 w-100">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-champion-tab" data-bs-toggle="tab" data-bs-target="#nav-champion" type="button" role="tab" aria-controls="nav-champion" aria-selected="true">チャンピオン</button>
+          <button class="nav-link" id="nav-emblem-tab" data-bs-toggle="tab" data-bs-target="#nav-emblem" type="button" role="tab" aria-controls="nav-emblem" aria-selected="false">紋章 / ヒーロー</button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-champion" role="tabpanel" aria-labelledby="nav-champion-tab">
+          <table class="table table-bordered my-2" style="background-color: white;">
+            <thead>
+              <tr>
+                <th scope="col">コスト</th>
+                <th scope="col">名前</th>
+                <th scope="col">フィルタ</th>
+                <th scope="col">星</th>
+                <th scope="col">含む</th>
+              </tr>
+            </thead>
+            <tbody id="tbody_champion">
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tab-pane fade" id="nav-emblem" role="tabpanel" aria-labelledby="nav-emblem-tab">
+          <table class="table table-bordered my-2" style="background-color: white;">
+            <thead>
+              <tr>
+                <th scope="col">名前</th>
+                <th scope="col">フィルタ</th>
+                <th scope="col">含む</th>
+              </tr>
+            </thead>
+            <tbody id="tbody_emblem">
+            </tbody>
+          </table>
+          <td><input id="hero" class="form-check-input" type="checkbox">  ヒーローオーグメントを含む</td>
+        </div>
+      </div>
+    </div>
+   
+
+</body>
+
+</html>

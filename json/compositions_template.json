@@ -1,0 +1,22 @@
+{
+  "compositions":[
+    {
+      "name": "シェイプシフターカシオペア",
+      "power_type": [
+        "AP"
+      ],
+      "pure_synergy": [
+        "シェイプシフター"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "グインソー"
+      ],
+      "memo": [
+        
+      ] 
+    }
+  ]
+}

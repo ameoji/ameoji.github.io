@@ -1,0 +1,417 @@
+{
+  "compositions":[
+    {
+      "name": "シェイプシフターカシオペア",
+      "evaluation": "A",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AP","AS"
+      ],
+      "pure_synergy": [
+        "シェイプシフター","インカンター"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "グインソー"
+      ],
+      "memo": [
+        "体験良いが評価はいまいち"
+      ] 
+    },
+    {
+      "name": "ハニーマンシージグス&コグ",
+      "evaluation": "A",
+      "features":[
+        "1ｺｽﾘﾛｰﾙ","2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "MANA","AP","AD"
+      ],
+      "pure_synergy": [
+        "ハニーマンシー","ヴァンガード","バスティオン"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "マナザネ","フィッシュボーン","紋章"
+      ],
+      "memo": [
+        "コグにフィッシュボーン",
+        "ジグスはマナ1つあればOK",
+        "★3そろってアルカナ出したら爆発的に強くなる",
+        "ハニマン紋章はアーリかヘカリム"
+      ] 
+    },
+    {
+      "name": "ヴァンガ ワーウィック&トゥイッチ",
+      "evaluation": "A",
+      "features":[
+        "1ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD"
+      ],
+      "pure_synergy": [
+        "凍結","ヴァンガード"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "QSS","ヴァンセプ"
+      ],
+      "memo": [
+        "ワーウィックにサッシュ必須",
+        "リンク有"
+      ]
+    },
+    {
+      "name": "マルスト アッシュ＆ヘカリム&カリスタ",
+      "evaluation": "B",
+      "features":[
+        "1ｺｽﾘﾛｰﾙ",
+        "3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AS", "AD", "TANK×"
+      ],
+      "pure_synergy": [
+        "マルチストライカー"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "グインソー", "ステラック", "BT","初手金策オーグ"
+      ],
+      "memo": [
+        "1コストリロールはあんまり",
+        "カサディンもできれば重ねる",
+        "馬3+カミール2がwinコン"
+      ] 
+    },
+    {
+      "name": "ドラゴンシェイプ",
+      "evaluation": "B",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "AD","AS"
+      ],
+      "pure_synergy": [
+        "シェイプシフター"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "グインソー","紋章","初手金策オーグ"
+      ],
+      "memo": [
+        "フライパン+ベルトで紋章",
+        "5コスト★2が勝利条件。両方★1は下位。",
+        "ノムジーは大事じゃない。ナサス★2は大事",
+        "大金前提"
+      ]
+    },
+    {
+      "name": "凍結パイロ",
+      "evaluation": "B",
+      "features":[
+        "3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "MANA", "AP", "AD"
+      ],
+      "pure_synergy": [
+        "凍結","ヴァンガード"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "memo": [
+        "紋章金ポータルのstats◎",
+        "紋章なしはLv.9でやっとtop4"
+      ]
+    },
+    {
+      "name": "ヴァンブラ",
+      "evaluation": "B",
+      "features":[
+        "3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD", "MANA"
+      ],
+      "pure_synergy": [
+        "ブラスター","ヴァンガード"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "BT"
+      ],
+      "memo": [
+        "BTあるならエズ1top",
+        "エズのADを重く"
+      ]
+    },
+    {
+      "name": "守護者クロノカルマ",
+      "evaluation": "B",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "MANA", "AP"
+      ],
+      "pure_synergy": [
+        "ウィッチクラフト","バスティオン","守護者","インカンター"
+      ],
+      "mix_synergy": [
+        "ウィッチバス守護者添え"
+      ],
+      "specific_items": [
+        "初手金策オーグ"
+      ],
+      "memo": [
+        "ウィッチ4、バスティオン、インカンター進行が無難？",
+        "<a href=\"https://www.metatft.com/team-builder/_CgQIURAACgQIbRABCgQIaRADCgQIcBAECgQIeBAHCgQIchAICgQIdxAKCgQIWRAVCgQIZBAWGAogAA%3D%3D\">ウィッチ4：前薄い。統計一番良い</a>",
+        "<a href=\"https://www.metatft.com/team-builder/_CgQIURAACgQIbRABCgQIWhADCgQIVxAECgQIeBAHCgQIchAICgQIdxARCgQIfhASCgQIWRAVGAogAA%3D%3D\">クロノ4：シェイプ。意味不明やけどラカンよりまし。</a>",
+        "<a href=\"https://x.com/orgap1/status/1835007209832653097\">ウォリ：グウェンにAP押しつけ。高い！</a>",
+        "<a href=\"https://www.metatft.com/team-builder/_CgQIURAACgQIbRABCgQIVxADCgQIWhAECgQIeBAHCgQIchAICgQIWRAVCgQIehAXCgQIZBAYGAogAA%3D%3D\">クロノ4：ラカン1top。統計一番悪い。</a>",
+        "前半の動きが課題"
+      ]
+    },
+    {
+      "name": "ポータル",
+      "evaluation": "B",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "MANA", "AP"
+      ],
+      "pure_synergy": [
+        "ポータル","バスティオン","ヴァンガード","ウィッチクラフト"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "シヴ", "アクエン"
+      ],
+      "memo": [
+      ]
+    },
+    {
+      "name": "ハンター ジンクス&ウーコン",
+      "evaluation": "C",
+      "features":[
+        "3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AS"
+      ],
+      "pure_synergy": [
+        "凍結","ヴァンガード"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "グインソー","ガゴスト"
+      ],
+      "memo": [
+        "top4狙い"
+      ]
+    },
+    {
+      "name": "ハンターコグマウ",
+      "evaluation": "C",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD","AS"
+      ],
+      "pure_synergy": [
+        "凍結","ハニーマンシー"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "グインソー","フィッシュボーン"
+      ],
+      "memo": [
+        "top4狙い",
+        "meta.tftにしかない"
+      ] 
+    },
+    {
+      "name": "ウォーリアー6",
+      "evaluation": "?",
+      "features":[
+        "fast8","3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD","AP"
+      ],
+      "pure_synergy": [
+        "マルチストライカー", "ウォーリアー"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章","初手金策オーグ"
+      ],
+      "memo": [
+        "onenoteにまとめてある"
+      ]
+    },
+    {
+      "name": "守護者カリスタ",
+      "evaluation": "?",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "AS"
+      ],
+      "pure_synergy": [
+        "ウィッチクラフト","バスティオン","妖精","マルチストライカー"
+      ],
+      "mix_synergy": [
+        "ウィッチバスマルスト添え"
+      ],
+      "specific_items": [
+        "紋章", "グインソー","初手金策オーグ"
+      ],
+      "memo": [
+        "AP受けはミリオのみ",
+        "カタリナ重く見ないならアイテム載せない",
+        "Lv.8でカリスタ、ラカン1枚集める"
+      ]
+    },
+    {
+      "name": "妖精7カリスタ＆カタリナ",
+      "evaluation": "?",
+      "features":[
+        "3ｺｽﾘﾛｰﾙ", "fast8"
+      ],
+      "power_type": [
+        "AS","AP"
+      ],
+      "pure_synergy": [
+        "ウィッチクラフト","バスティオン","妖精","マルチストライカー"
+      ],
+      "mix_synergy": [
+        "ウィッチバスマルスト添え"
+      ],
+      "specific_items": [
+        "初手金策オーグ"
+      ],
+      "memo": [
+        "Lv.8にしてカタリナ集める"
+      ]
+    },
+    {
+      "name": "守護者スカラーライズ",
+      "evaluation": "?",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "MANA", "AP"
+      ],
+      "pure_synergy": [
+        "ウィッチクラフト","バスティオン","守護者"
+      ],
+      "mix_synergy": [
+        "ウィッチバス守護者添え"
+      ],
+      "specific_items": [
+        "シヴ","初手金策オーグ"
+      ],
+      "memo": [
+        "Lv.8でタリックライズ来るなら"
+      ]
+    },
+    {
+      "name": "パイロヴァルス",
+      "evaluation": "?",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "AD"
+      ],
+      "pure_synergy": [
+        "マルチストライカー"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+      ],
+      "memo": [
+        "<a href=\"https://www.metatft.com/team-builder/_CgQIfxAACgQIaBABCgQIdxACCgQIfhADCgQIcxAECgUIhgEQBQoECH0QFQoECFgQFgoECHkQFxgKIAA%3D\">ビルダー</a>",
+        "狙っていく構成ではなさそう",
+        "アカリ、シェンで燃えがら集めできてたら？"
+      ]
+    },
+    {
+      "name": "アルカナヴァルス",
+      "evaluation": "?",
+      "features":[
+        "fast8"
+      ],
+      "power_type": [
+        "AD","AP"
+      ],
+      "pure_synergy": [
+        "マルチストライカー","ブラスター","バスティオン"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+      ],
+      "memo": [
+        "<a href=\"https://www.metatft.com/team-builder/_CgQIaBABCgQIcBACCgoIcxADIgR4OsABCgUIhgEQBAoFCIkBEAUKDAhxEAkiBqwBxQGvAQoLCH0QFSIFDK4BpQEKBQiMARAXCgQIeRAbGAogAA%3D%3D\">ビルダー</a>",
+        "狙っていく構成ではなさそう",
+        "エズ（ヴァンブラ）の逃げ先？上振れ？",
+        "APの押し付け先（グウェン）は大きいかも"
+      ]
+    },
+    {
+      "name": "アルカナジグス",
+      "evaluation": "?",
+      "features":[
+        "1ｺｽﾘﾛｰﾙ","2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AP","AS"
+      ],
+      "pure_synergy": [
+        "ハニーマンシー","バスティオン","ヴァンガード","インカンター"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "グインソー","シヴ"
+      ],
+      "memo": [
+        "カシグインソはおもったより大事ではなさそう。",
+        "コグに乗せるものなかったらこっちかも。"
+      ]
+    }
+  ]
+}
