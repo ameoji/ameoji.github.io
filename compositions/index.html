@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Set12構成メモ</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="/assets/js/compositions.js"></script>
+    <link rel="stylesheet" href="/assets/css/common.css">
+  </head>
+  <body class="w-100 px-2 mx-auto py-2">
+    <div class="pb-2">
+      <div>パワータイプ</div>
+      <div id="type">
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>初期シナジー（単体）</div>
+      <div id="pure_synergy">
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>初期シナジー（複合）</div>
+      <div  id="mix_synergy">
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>起点チャンプ</div>
+      <div id="start_champions">
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>指定アイテム</div>
+      <div id="specific_items">
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>検索タイプ</div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="condition" id="inlineRadio1" value="AND">
+        <label class="form-check-label" for="inlineRadio1">AND</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="condition" id="inlineRadio2" value="OR" checked>
+        <label class="form-check-label" for="inlineRadio2">OR</label>
+      </div>
+    </div>
+    <div>評価「★：気になる  /  A：気分良くやれる  /  B：まあいける or やりたいだけ  /  C：あんまりやりたくない  /  X：限定構成  /  ?：わからん」</div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">名称</th>
+          <th scope="col">評価</th>
+          <th scope="col" style="width: 75px;">特徴</th>
+          <th scope="col">タイプ</th>
+          <th scope="col">初期シナジー（単体）</th>
+          <th scope="col">起点チャンプ</th>
+          <!-- <th scope="col">初期シナジー（複合）</th> -->
+          <th scope="col">バフ/デバフ</th>
+          <th scope="col">指定アイテム</th>
+          <th scope="col">メモ</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </body>
+
+</html>

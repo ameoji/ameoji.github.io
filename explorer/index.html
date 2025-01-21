@@ -2,6 +2,7 @@
 <html class="h-100">
 
 <head>
+  <title>Set12統計URL</title>
   <meta charset="UTF-8">
   <base target="_top">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,6 +41,7 @@
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <button class="nav-link active" id="nav-champion-tab" data-bs-toggle="tab" data-bs-target="#nav-champion" type="button" role="tab" aria-controls="nav-champion" aria-selected="true">チャンピオン</button>
           <button class="nav-link" id="nav-emblem-tab" data-bs-toggle="tab" data-bs-target="#nav-emblem" type="button" role="tab" aria-controls="nav-emblem" aria-selected="false">紋章 / ヒーロー</button>
+          <button class="nav-link" id="nav-composition-tab" data-bs-toggle="tab" data-bs-target="#nav-composition" type="button" role="tab" aria-controls="nav-conposition" aria-selected="false">指定構成</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -73,6 +75,21 @@
           </table>
           <td><input id="hero" class="form-check-input" type="checkbox">  ヒーローオーグメントを含む</td>
         </div>
+
+        <div class="tab-pane fade" id="nav-composition" role="tabpanel" aria-labelledby="nav-composition-tab">
+          <table class="table table-bordered my-2" style="background-color: white;">
+            <thead>
+              <tr>
+                <th scope="col">構成</th>
+                <th scope="col">Lv.8リンク</th>
+                <th scope="col">Lv.9リンク</th>
+              </tr>
+            </thead>
+            <tbody id="tbody_composition">
+            </tbody>
+          </table>
+        </div>
+
       </div>
     </div>
    

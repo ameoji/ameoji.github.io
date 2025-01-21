@@ -1,60 +1,31 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="/assets/js/common.js"></script>
-    <link rel="stylesheet" href="/assets/css/common.css">
-  </head>
-  <body class="w-100 px-2 mx-auto py-2">
-    <div class="pb-2">
-      <div>パワータイプ</div>
-      <div id="type">
-      </div>
-    </div>
-    <div class="pb-2">
-      <div>初期シナジー（単体）</div>
-      <div id="pure_synergy">
-      </div>
-    </div>
-    <div class="pb-2">
-      <div>初期シナジー（複合）</div>
-      <div  id="mix_synergy">
-      </div>
-    </div>
-    <div class="pb-2">
-      <div>指定アイテム</div>
-      <div id="specific_items">
-      </div>
-    </div>
-    <div class="pb-2">
-      <div>検索タイプ</div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="condition" id="inlineRadio1" value="AND">
-        <label class="form-check-label" for="inlineRadio1">AND</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="condition" id="inlineRadio2" value="OR" checked>
-        <label class="form-check-label" for="inlineRadio2">OR</label>
-      </div>
-    </div>
-    <div>評価「A：気分良くやれる  /  B：まあいける or やりたいだけ  /  C：あんまりやりたくない  /  ?：わからん」</div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">名称</th>
-          <th scope="col">評価</th>
-          <th scope="col" style="width: 75px;">特徴</th>
-          <th scope="col">タイプ</th>
-          <th scope="col">初期シナジー（単体）</th>
-          <!-- <th scope="col">初期シナジー（複合）</th> -->
-          <th scope="col">指定アイテム</th>
-          <th scope="col">メモ</th>
-        </tr>
-      </thead>
-      <tbody id="tbody">
-      </tbody>
-    </table>
-  </body>
+<!DOCTYPE html>
+<html class="h-100">
 
+<head>
+  <title>TOP</title>
+  <meta charset="UTF-8">
+  <base target="_top">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/common.css">
+  <link rel="stylesheet" href="/assets/css/top.css">
+</head>
+
+<body class="h-100" style="background-color: aliceblue;">
+  <div class="py-4">
+    <a href="./compositions/index.html" class="btn btn-primary p-2 w-75 my-2 d-flex justify-content-center mx-auto">
+      構成
+    </a>
+    <a href="./explorer/index.html" class="btn btn-primary p-2 w-75 my-2 d-flex justify-content-center mx-auto">
+      metatft
+    </a>
+    <a href="./create_json/" class="btn btn-primary p-2 w-75 my-2 d-flex justify-content-center mx-auto">
+      データ作成
+    </a>
+  </div>
+</body>
 </html>

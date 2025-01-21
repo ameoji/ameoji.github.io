@@ -4,6 +4,8 @@ let item = []
 let augment = []
 
 $(document).ready(function() {
+  // a()
+
   // チャンピオンデータの取得と配置
   setChampions()
 
@@ -14,7 +16,7 @@ $(document).ready(function() {
 });
 
 function setChampions(champions){
-  getJsonData('/json/champions.json').then(function(data) {
+  getJsonData('/json/explorer/champions.json').then(function(data) {
     let champions = data.champions
     champions.forEach(champion => {
       let s_3_2_1 = ""
@@ -51,7 +53,7 @@ function setChampions(champions){
 }
 
 function setEmblems(){
-  getJsonData('/json/emblems.json').then(function(data) {
+  getJsonData('/json/explorer/emblems.json').then(function(data) {
     let emblems = data.emblems
     emblems.forEach(emblem => {
       let row = `
@@ -76,9 +78,9 @@ function generateURL(){
     let star = $(`#${element.value}>option:selected`).val()
     let url_unit_part = ""
     if(is_include){
-      url_unit_part = `&unit=TFT12_${element.value}_${star}_3`
+      url_unit_part = `&unit=${element.value}_${star}_3`
     }else{
-      url_unit_part = `&unit=!TFT12_${element.value}_${star}_x`
+      url_unit_part = `&unit=!${element.value}_${star}_x`
     }
     url_unit += url_unit_part
     console.log(url_unit)
@@ -89,21 +91,23 @@ function generateURL(){
     let is_include = $(`.emblem.include[value=${element.value}]`)[0].checked
     let url_emblem_part = ""
     if(is_include){
-      url_emblem_part = `&item=TFT12_Item_${element.value}EmblemItem`
+      url_emblem_part = `&item=TFT13_Item_${element.value}EmblemItem`
     }else{
-      url_emblem_part = `&item=!TFT12_Item_${element.value}EmblemItem`
+      url_emblem_part = `&item=!TFT13_Item_${element.value}EmblemItem`
     }
     url_item += url_emblem_part
   });
 
   let is_hero_include = $("#hero").prop("checked")
-  let url_augument = "&augment=!TFT12_Augment_BlitzcrankCarry&augment=!TFT12_Augment_PoppyCarry&augment=!TFT12_Augment_EliseCarry&augment=!TFT12_Augment_NunuCarry&augment=!TFT12_Augment_RumbleCarry&augment=!TFT12_Augment_GalioCarry&augment=!TFT12_Augment_ShenCarry&augment=!TFT12_Augment_LilliaCarry"
+  let url_augument = "&augment=!TFT13_Augment_BlueCarry&augment=!TFT13_Augment_ChainsawCarry&augment=!TFT13_Augment_FishCarry&augment=!TFT13_Augment_IreliaCarry&augment=!TFT13_Augment_PrimeCarry&augment=!TFT13_Augment_SingedCarry&augment=!TFT13_Augment_TrundleCarry&augment=!TFT13_Augment_VladCarry"
+  let url_cost6 = "&unit=!TFT13_Viktor-1&unit=!TFT13_MissMage-1&unit=!TFT13_Warwick-1"
+
   if(is_hero_include){
     url_augument = ""
   }
 
-  let url_8 = url + "&num_unit_slots=8" + url_unit + url_item + url_augument
-  let url_9 = url + "&num_unit_slots=9" + url_unit + url_item + url_augument
+  let url_8 = url + "&num_unit_slots=8" + url_unit + url_item + url_augument + url_cost6
+  let url_9 = url + "&num_unit_slots=9" + url_unit + url_item + url_augument + url_cost6
 
   console.log(`url_unit: ${url_unit}`)
   console.log(`url_item: ${url_item}`)
@@ -261,7 +265,6 @@ function exclude1Star3(){
 }
 
 function excludeEmblem(){
-  console.log("aa")
   $(".emblem.filter").each(function(index, element){
     element.checked = true
   });
@@ -269,4 +272,16 @@ function excludeEmblem(){
     element.checked = false
   });
   generateURL()
+}
+
+function a(){
+  $.ajax({
+    url: 'https://api.metatft.com/tft-explorer-api/total?formatnoarray=true&queue=1100&patch=current&days=1&rank=CHALLENGER,DIAMOND,GRANDMASTER,MASTER&permit_filter_adjustment=true&unit_tier_numitems_unique=TFT13_Zoe-1_.*_3&augment=!TFT13_Augment_BlueCarry&augment=!TFT13_Augment_ChainsawCarry&augment=!TFT13_Augment_FishCarry&augment=!TFT13_Augment_IreliaCarry&augment=!TFT13_Augment_PrimeCarry&augment=!TFT13_Augment_SingedCarry&augment=!TFT13_Augment_TrundleCarry&augment=!TFT13_Augment_VladCarry',
+    type: 'get',
+    cache: false,
+    dataType:'json',
+  })
+  .done(function(response) { 
+    console.log(response)
+  });
 }

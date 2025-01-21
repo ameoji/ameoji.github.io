@@ -1,0 +1,190 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>json作成</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/common.css">
+  </head>
+  <main>
+    検証モードで出てる
+  </main>
+  <script>
+    $(document).ready(function() {
+      createJson()
+    });
+
+    function createJson(champions){
+      getJsonData('https://raw.communitydragon.org/latest/cdragon/tft/ja_jp.json').then(function(data) {
+        // 全確認用
+        console.log(data)
+        
+        console.log("----------構成メモ用関数---------")
+        // シナジーの作成
+        createPureSynergy(data)
+        // champions.jsonの作成
+        createStarthampionJson(data)
+
+        console.log("----------統計用関数---------")
+        // champions.jsonの作成
+        createChampionJson(data)
+        //ヒーロー除外URLの作成
+        createExcludeHero(data)
+
+      })
+    }
+
+    // ----------構成メモ用関数---------
+    function createPureSynergy(data){
+      let arr_synergy = []
+      data["setData"].forEach(set_data => {
+        if(set_data["mutator"] != "TFTSet13"){
+          return;
+        }
+        set_data["traits"].forEach(traits => {
+          // オーグメント出るやつなどを除く
+          let exlude_synergy = [
+            "ジャンク王",
+            "脅威",
+            "戒厳令",
+            "再会",
+            "シスター",
+            "ギャンブラー",
+            "かつての夢",
+            "意外なコンビ",
+            "天才たち"
+          ]
+          if(exlude_synergy.includes(traits["name"])){
+            return;
+          }
+          arr_synergy.push(traits["name"])
+        });
+        
+      });
+      console.log("start_synergy.json")
+      console.log(arr_synergy)
+    }
+
+    function createStarthampionJson(data){
+      let dict_champions = {
+        "start_champions_display": [
+        ],
+        "start_champions": []
+      }
+      let champions = data["sets"]["13"]["champions"]
+      champions.forEach(champion => {
+        // 4コスト以上は入れない
+        if(champion.cost >= 4){
+          return;
+        }
+        if(champion.characterName.includes("TFT13_") == false){
+          return;
+        }
+
+        // {"name":"カミール","eng_name":"Camille","cost":5},
+        let push_data = {
+          "name": zenKana2HanKana(champion.name),"cost": champion.cost
+        }
+        dict_champions["start_champions"].push(push_data)
+      });
+      dict_champions["start_champions"].sort((a, b) =>
+        a.cost > b.cost ? 1 : -1
+      );
+      console.log("start_champions.json")
+      console.log(dict_champions)
+    }
+
+    // ----------統計用関数---------
+    function createChampionJson(data){
+      let dict_champions = {
+          "champions": []
+        }
+      let champions = data["sets"]["13"]["champions"]
+      champions.forEach(champion => {
+        if(champion.cost > 5){
+          return;
+        }
+        if(champion.characterName.includes("TFT13_") == false){
+          return;
+        }
+
+        // {"name":"カミール","eng_name":"Camille","cost":5},
+        let push_data = {
+          "name": champion.name,
+          "eng_name": champion.apiName,
+          "cost": champion.cost
+        }
+        dict_champions["champions"].push(push_data)
+      });
+      dict_champions["champions"].sort((a, b) =>
+        a.cost > b.cost ? 1 : -1
+      );
+      console.log("champion.json")
+      console.log(dict_champions)
+    }
+
+    function createExcludeHero(data){
+      let hero_url = ""
+        data["setData"].forEach(data => {
+          if(data["mutator"] != "TFTSet13"){
+            return;
+          }
+          data["augments"].forEach(augment => {
+            if(augment.includes("TFT_")){
+              return;
+            }
+            if(augment.includes("Carry")){
+              hero_url += "&augment=!" + augment
+            }
+          });
+
+        });
+        console.log("ヒーロー除外URL")
+        console.log(hero_url)
+    }
+
+
+
+    function getJsonData(jsonPath) {
+      return new Promise(function(resolve, reject) {
+          $.getJSON(jsonPath, function(data) {
+              let jsonString = JSON.stringify(data);
+              let jsonParsed = JSON.parse(jsonString);
+              resolve(jsonParsed);
+          }).fail(function(jqXHR, textStatus, error) {
+              reject('JSONファイルの読み込みに失敗: ' + error);
+          });
+      });
+    }
+
+    /**
+     * 全角カタカナを半角カタカナに変換する
+     * @param {string} text - 変換対象文字列
+     * @returns {string} - 変換後文字列
+     */
+    function zenKana2HanKana(text) {
+      let result = "";
+      for (let i = 0; i < text.length; i++) {
+        const newChar = (char) => {
+          const ZENKANA = "、。「」ー・゜゛アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンァィゥェォャュョッ";
+          const HANKANA = "､｡｢｣ｰ･ﾟﾞｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜｦﾝｧｨｩｪｫｬｭｮｯ";
+          const ZENKANA2 = "ヴガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ";
+          const HANKANA2 = "ｳﾞｶﾞｷﾞｸﾞｹﾞｺﾞｻﾞｼﾞｽﾞｾﾞｿﾞﾀﾞﾁﾞﾂﾞﾃﾞﾄﾞﾊﾞﾋﾞﾌﾞﾍﾞﾎﾞﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ";
+          const x2 = ZENKANA2.indexOf(char);
+          if (x2 >= 0) {
+            // 例: ガ→ｶﾞ
+            return HANKANA2.slice(x2 * 2, x2 * 2 + 2);
+          }
+          const x1 = ZENKANA.indexOf(char);
+          if (x1 >= 0) {
+            // 例: ア→ｱ
+            return HANKANA.charAt(x1);
+          }
+          return char;
+        }
+        result += newChar(text[i]);
+      }
+      return result;
+    }
+  </script>
+</html>

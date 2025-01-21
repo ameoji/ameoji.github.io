@@ -1,0 +1,475 @@
+{
+  "compositions":[
+    {
+      "name": "レナータ",
+      "evaluation": "★",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ","負in○"
+      ],
+      "power_type": [
+        "AP"
+      ],
+      "pure_synergy": [
+        "ビジョナリー","センチネル"
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "負けAPの選択肢として試す",
+        "ビジョ4の後はセンチを伸ばす",
+        "<a href=\"https://x.com/Ginya_76/status/1867896934201274676\" target=\"_blank\">参考</a>"
+      ] 
+    },
+    {
+      "name": "使者APフレックス",
+      "evaluation": "★",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AP"
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "初手金策オーグ"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "<a href=\"https://www.metatft.com/team-builder/team_aa772b84-4429-4b1a-9cbb-92dfc7e91280\" target=\"_blank\">ビルダー</a>",
+        "APかつナミ or スウェインでソサ進行。ラックスザイラが力強いときでもいいかも。ソサ＋任意フロント",
+        "APは終盤黒薔薇混ぜるのが上振れ。ナミ、スウェイン★3がwinコンなので厳しいは厳しい。拾えた金策がリロール重視である必要がある？",
+        "金とアイテムが一生欲しい。連勝＋金策オーグの時しかwinコンじゃないかも。",
+        "基本アイテムが足りないはず。スクラップの活用はmust？要水増し"
+      ] 
+    },
+    {
+      "name": "アゴリロ",
+      "evaluation": "★",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "アイテム＞お金が重要らしい。",
+        "ピットファイター&征服者⇒行けそう？",
+        "onenoteに構成有"
+      ] 
+    },
+    {
+      "name": "伏兵カミール",
+      "evaluation": "★",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ","3ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD","AP","TANK×"
+      ],
+      "pure_synergy": [
+        "執行官", "伏兵"
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "復活してるかも",
+        "<a href=\"https://x.com/m1zono/status/1860633035970142521\" target=\"_blank\">参考</a>",
+        "<a href=\"https://tftacademy.com/tierlist/comps/set-13-ambusher-camille-smeech\" target=\"_blank\">アカデミー</a>",
+        "執行官+伏兵から始める"
+      ] 
+    },
+    {
+      "name": "使者ADフレックス",
+      "evaluation": "A",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AD"
+      ],
+      "pure_synergy": [
+        "征服者"
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "初手金策オーグ"
+      ],
+      "buff_debuff": [
+        "HP回復(固定値)","ｼｰﾙﾄﾞ(ｶﾞﾚﾝ)"
+      ],
+      "memo": [
+        "分解ないのでLW必須。阻害はガレンのサンファイアで",
+        "ADかつドレイヴン＋ダリウスにトリスアーゴットで征服者進行←再現性は高そう。",
+        "Lv.9では基本コーキ+6コストが入る。",
+        "Win率はブラッド、レル、ランブル＞（フォームスワッパー4※コーキ×）＞ブラッド、イラオイ、モルデ、ランブル（妥協感）",
+        "安定はコーキ型のGPとスウェインを軸にヴァイ⇒TFで並べて、フォームスワッパー4型（コーキ⇒ジェイス）を狙っていく形？",
+        "コーキ抜きはフォームスワッパー4型のみ。多分サブはジェイスキャリー？",
+        "使者4出る前にジェイスを引いた場合はヴァイ、TFのコーキ型からガレンジェイスナミ引いてLv.8フォームスワッパー4型に切り替えられる",
+        "金とアイテムが一生欲しい。連勝＋金策オーグの時しかwinコンじゃないかも。",
+        "2キャリー+タンクなので基本アイテムが足りない。スクラップの活用はmust？要水増し"
+      ] 
+    },
+    {
+      "name": "黒薔薇&ドミ",
+      "evaluation": "A",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "MANA","AP"
+      ],
+      "pure_synergy": [
+        "黒薔薇団"
+      ],
+      "start_champions": [
+        "ｶｼｵﾍﾟｱ",
+        "ﾌﾞﾗｯﾄﾞﾐｱ"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+        "ｼｰﾙﾄﾞ低減", "HP回復"
+      ],
+      "memo": [
+        "細断, 燃焼がないのでどこかで拾う必要がある。",
+        "<a href=\"https://x.com/orgap1/status/1868158073417912448\" target=\"_blank\">参考</a>",
+        "黒薔薇5ドミ4 > ドミ6黒薔薇3の序列はある。",
+        "Lv.9は6コストが基本はいる。5以下はランブル > ジェイス > ガレン あたり。",
+        "ドミ6黒薔薇4は弱いらしい。"
+      ] 
+    },
+    {
+      "name": "韋駄天ノク",
+      "evaluation": "A",
+      "features":[
+        "2ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD","AP", "TANK×","負in○"
+      ],
+      "pure_synergy": [
+        "韋駄天","センチネル","オートマタ","反逆者"
+      ],
+      "start_champions": [
+        "ｱｶﾘ",
+        "ﾉｸﾀｰﾝ"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+      ],
+      "buff_debuff": [
+        "ｼｰﾙﾄﾞ"
+      ],
+      "memo": [
+        "紋章1：オートマタ紋章（つけるならアンベッサ）でオート6を目指す。コグ、ブリッツは無理に★3にしない",
+        "反逆者紋章を3-2とか寿司で拾えるなら反逆者7目指したほうが上振れ。アンベッサにつけたら一応statsは上がる",
+        "韋駄天紋章はこの構成じゃなくて使者4とか反逆者7に味付けするのが○。使者4移行できるか？",
+        "<a href=\"https://www.metatft.com/team-builder/team_df23ee7c-e637-47c3-ab6a-5feccd1afbbf\" target=\"_blank\">ビルダー</a>",
+        "Lv.6は韋駄天4にせず、アカリ、ノク⇔アンベッサ、TF、ロリス、イレリア+ エズ or ヴェックス？な気がする。",
+        "キャリーが多いからタンクアイテムにすると上限値が下がる"
+      ] 
+    },
+    {
+      "name": "反逆者",
+      "evaluation": "B",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AD", "AP", "AS"
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+        "ｴｽﾞﾘｱﾙ",
+        "ｱｶﾘ",
+        "ｾﾄ"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "マナザネ","紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "Lv.9でジンクス引かないと最終人権がないので紋章あってもなくても難しいイメージ。",
+        "Lv.7以降は反逆者7+ソサ（ゾーイ。特にナミが◎）+伏兵（ジンクス）+フォームスワッパー（耐久）みたいに考えるとよさそう。",
+        "セト or ★2イレリア + エズ or アカリ がセットの時に進行すると気持ちよさそう",
+        "6コストはあるだけ入れる。",
+        "紋章なしはエズ抜きの伏兵3（ジンクス、エコー、パウダー） > ナミ、ジェイス > エリス、ジェイス > エコー、ルブ",
+        "紋章ありは エリス、ジェイス + ソサ > ランブル、エコー + ソサ > 伏兵伸ばし。エリスはいつだって優秀。",
+        "エズAD進行かアカリAP進行でよい気がする"
+      ] 
+    },
+    {
+      "name": "ファミリーリロール",
+      "evaluation": "B",
+      "features":[
+        "1ｺｽﾘﾛｰﾙ"
+      ],
+      "power_type": [
+        "AD", "AP","負in○"
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+        "ｳﾞｧﾝﾀﾞｰ",
+        "ﾊﾞｲｵﾚｯﾄ",
+        "ﾊﾟｳﾀﾞｰ"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "4位狙い。かぶったらお通夜始まりそう。",
+        "ヴァンダーのヒーローかファミリー紋章スタートで2ステから4ステまで勝ち続ける形がwinコンな気がする",
+        "★3大量にでるので、アイテム水増しオーグと相性よさそう"
+      ] 
+    },
+    {
+      "name": "センチネルハイマー",
+      "evaluation": "C",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AP"
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+        "ｴｽﾞﾘｱﾙ",
+        "ﾚｵﾅ"
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "アクエン", "ガンブレ","初手金策オーグ"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "わざわざ選ぶ理由がなさそう",
+        "<a href=\"https://x.com/orgap1/status/1860202259914858741\" target=\"_blank\">参考</a>",
+        "アカデミーのアイテム起点らしい。アクエン、ガンブレ、ナッシャー、ジュエガン",
+        "エズでアカデミー起点？",
+        "アカデミーハイマーっていうのもあるらしい",
+        "イラオイにワーモグ積む→積まないと薄い",
+        "ハイマーに青とアクエン+できたらガンブレ積む→前耐久上げる"
+      ]
+    },
+    {
+      "name": "コグなしスナイパー+",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "執行官+ブルーザーから？",
+        "スナイパー+1を拾ったときにやる",
+        "<a href=\"https://www.metatft.com/team-builder/_CgUIgQIQAQoFCJYCEAIKBQjxARADCgUI5wEQBAoFCJsCEAkKBQjjARAVCgUIjwIQFgoFCP0BEBcKBQjoARAbGAsgAA%3D%3D\" target=\"_blank\">ビルダー</a>",
+        "バカ紋章始まった時がチャンスかも"
+      ] 
+    },
+    {
+      "name": "執行官",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AD"
+      ],
+      "pure_synergy": [
+        "執行官","伏兵","ブルーザー"
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+        "HP回復","ｼｰﾙﾄﾞ","細断/分解(ｹｲﾄ)"
+      ],
+      "memo": [
+        "紋章あるとき以外やるな",
+        "<a href=\"https://www.metatft.com/team-builder/team_e3666083-36d9-4b0f-b47d-37938c5b7574\" target=\"_blank\">ビルダー</a>",
+        "紋章で若干上位狙える。なしは4滑り込み狙い。",
+        "ケイトにマナ不要。タンクアイテムの重要性がイマイチ？"
+      ] 
+    },
+    {
+      "name": "スクラップ",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "<a href=\"https://tftacademy.com/tierlist/comps/set-13-silver-scraps\" target=\"_blank\">参考</a>",
+        "3, 4ステ（Lv.6⇒8）くらいにパワーを感じない。どこに中間パワーが出る？",
+        "フォームスワッパー4 が勝ち筋○",
+        "トリス、イラオイ、エリス、セヴィカ(ヴァイ) は紋章なし6（-トリス）と大して変わらん"
+      ] 
+    },
+    {
+      "name": "ソサ8",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AP"
+      ],
+      "pure_synergy": [
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "エリスかメルに紋章は渡す",
+        "フォンかダミーとかで枠使わずに+1できている+ルブラン引けていたときはLv.8でスウェイン+ゾーイ★3で勝った。"
+      ] 
+    },
+    {
+      "name": "鼠",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AS","AD"
+      ],
+      "pure_synergy": [
+        "ブルーザー"
+      ],
+      "start_champions": [
+      ],
+      "mix_synergy": [
+      ],
+      "specific_items": [
+        "紋章"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "Lv.9以外に人権なし。紋章 > お金",
+        "ゴミの負け進行の時にブルーザー＋マディorドレイブン集めて何とかできないか？",
+        "確認：レニーヒーロー, ブルーザー関連",
+        "エクスペリメントコースはブルはエリスだけ。ヴァイに紋章。"
+      ] 
+    },
+    {
+      "name": "征服者6",
+      "evaluation": "X",
+      "features":[
+        "fast9"
+      ],
+      "power_type": [
+        "AD","AP", "TANK×"
+      ],
+      "pure_synergy": [
+        "征服者"
+      ],
+      "start_champions": [
+        "ﾄﾞﾚｲｳﾞﾝ","ﾀﾞﾘｳｽ","ﾚﾙ"
+      ],
+      "mix_synergy": [
+    
+      ],
+      "specific_items": [
+        "紋章","ハンジャ","巨人","IE"
+      ],
+      "buff_debuff": [
+      ],
+      "memo": [
+        "紋章あるとき以外やるな",
+        "征服者報酬の運ゲー。楽しむやつ。",
+        "<a href=\"https://tftacademy.com/tierlist/comps/set-13-command-and-conquer\" target=\"_blank\">アカデミー解説</a>",
+        "<a href=\"https://qr.paps.jp/yPx21\" target=\"_blank\">アカデミービルダー</a>",
+        "<a href=\"https://www.metatft.com/team-builder/team_eabb77e8-8151-4edf-8475-39d3536b1f53\" target=\"_blank\">ビルダー</a>",
+        "タンクにアイテム割いたらキャリーの分がなくなる",
+        "ファミリー征服者でヴァイオレット見つつ征服者で進行する",
+        "征服者4⇒6：GP入り征服者4+レオナ、トランドル⇒アンベ、ダリウス",
+        "ヴァイ引けるなら征服者4時代はドレイヴン抜きで行ける",
+        "フォームスワッパー4以外は1位厳しそう",
+        "ジェイス、エリス（GP⇒ジェイス） ＞ ヴァイ、セヴィカ ＞ GP外して使者4"
+      ] 
+    }
+  ]
+}

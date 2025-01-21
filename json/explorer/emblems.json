@@ -1,0 +1,26 @@
+{
+  "emblems": [
+    {"name":"アカデミー","eng_name":"Academy"},
+    {"name":"伏兵","eng_name":"Ambusher"},
+    {"name":"オートマタ","eng_name":"Automata"},
+    {"name":"ブルーザー","eng_name":"Bruiser"},
+    {"name":"黒薔薇団","eng_name":"Cabal"},
+    {"name":"韋駄天","eng_name":"Challenger"},
+    {"name":"ケミ長者","eng_name":"Crime"},
+    {"name":"砲兵","eng_name":"Demolitionist"},
+    {"name":"エクスペリメント","eng_name":"Experiment"},
+    {"name":"ファミリー","eng_name":"Family"},
+    {"name":"ファイヤーライト","eng_name":"Hoverboard"},
+    {"name":"ドミネーター","eng_name":"Infused"},
+    {"name":"ビジョナリー","eng_name":"Invoker"},
+    {"name":"ピットファイター","eng_name":"PitFighter"},
+    {"name":"反逆者","eng_name":"Rebel"},
+    {"name":"スクラップ","eng_name":"Scrap"},
+    {"name":"スナイパー","eng_name":"Sniper"},
+    {"name":"ソーサラー","eng_name":"Sorcerer"},
+    {"name":"執行官","eng_name":"Squad"},
+    {"name":"センチネル","eng_name":"Titan"},
+    {"name":"征服者","eng_name":"Warband"},
+    {"name":"ウォッチャー","eng_name":"Watcher"}
+  ]
+}

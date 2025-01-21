@@ -1,0 +1,304 @@
+{
+  "champions": [
+      {
+          "name": "モルガナ",
+          "eng_name": "TFT13_Morgana",
+          "cost": 1
+      },
+      {
+          "name": "ラックス",
+          "eng_name": "TFT13_Lux",
+          "cost": 1
+      },
+      {
+          "name": "ザイラ",
+          "eng_name": "TFT13_Zyra",
+          "cost": 1
+      },
+      {
+          "name": "イレリア",
+          "eng_name": "TFT13_Irelia",
+          "cost": 1
+      },
+      {
+          "name": "ダリウス",
+          "eng_name": "TFT13_Darius",
+          "cost": 1
+      },
+      {
+          "name": "ヴェックス",
+          "eng_name": "TFT13_Vex",
+          "cost": 1
+      },
+      {
+          "name": "バイオレット",
+          "eng_name": "TFT13_Red",
+          "cost": 1
+      },
+      {
+          "name": "パウダー",
+          "eng_name": "TFT13_Blue",
+          "cost": 1
+      },
+      {
+          "name": "マディー",
+          "eng_name": "TFT13_Shooter",
+          "cost": 1
+      },
+      {
+          "name": "ステブ",
+          "eng_name": "TFT13_Fish",
+          "cost": 1
+      },
+      {
+          "name": "トランドル",
+          "eng_name": "TFT13_Trundle",
+          "cost": 1
+      },
+      {
+          "name": "ドレイヴン",
+          "eng_name": "TFT13_Draven",
+          "cost": 1
+      },
+      {
+          "name": "アムム",
+          "eng_name": "TFT13_Amumu",
+          "cost": 1
+      },
+      {
+          "name": "シンジド",
+          "eng_name": "TFT13_Singed",
+          "cost": 1
+      },
+      {
+          "name": "アーゴット",
+          "eng_name": "TFT13_Urgot",
+          "cost": 2
+      },
+      {
+          "name": "トリスターナ",
+          "eng_name": "TFT13_Tristana",
+          "cost": 2
+      },
+      {
+          "name": "レオナ",
+          "eng_name": "TFT13_Leona",
+          "cost": 2
+      },
+      {
+          "name": "ノクターン",
+          "eng_name": "TFT13_Nocturne",
+          "cost": 2
+      },
+      {
+          "name": "ゼリ",
+          "eng_name": "TFT13_Zeri",
+          "cost": 2
+      },
+      {
+          "name": "ヴァンダー",
+          "eng_name": "TFT13_Prime",
+          "cost": 2
+      },
+      {
+          "name": "ジグス",
+          "eng_name": "TFT13_Ziggs",
+          "cost": 2
+      },
+      {
+          "name": "ブラッドミア",
+          "eng_name": "TFT13_Vladimir",
+          "cost": 2
+      },
+      {
+          "name": "レル",
+          "eng_name": "TFT13_Rell",
+          "cost": 2
+      },
+      {
+          "name": "セト",
+          "eng_name": "TFT13_Sett",
+          "cost": 2
+      },
+      {
+          "name": "アカリ",
+          "eng_name": "TFT13_Akali",
+          "cost": 2
+      },
+      {
+          "name": "カミール",
+          "eng_name": "TFT13_Camille",
+          "cost": 2
+      },
+      {
+          "name": "レナータ・グラスク",
+          "eng_name": "TFT13_RenataGlasc",
+          "cost": 2
+      },
+      {
+          "name": "スウェイン",
+          "eng_name": "TFT13_Swain",
+          "cost": 3
+      },
+      {
+          "name": "ツイステッド・フェイト",
+          "eng_name": "TFT13_TwistedFate",
+          "cost": 3
+      },
+      {
+          "name": "コグ＝マウ",
+          "eng_name": "TFT13_KogMaw",
+          "cost": 3
+      },
+      {
+          "name": "ガングプランク",
+          "eng_name": "TFT13_Gangplank",
+          "cost": 3
+      },
+      {
+          "name": "ナミ",
+          "eng_name": "TFT13_Nami",
+          "cost": 3
+      },
+      {
+          "name": "ヌヌ＆ウィルンプ",
+          "eng_name": "TFT13_NunuWillump",
+          "cost": 3
+      },
+      {
+          "name": "スカー",
+          "eng_name": "TFT13_FlyGuy",
+          "cost": 3
+      },
+      {
+          "name": "ロリス",
+          "eng_name": "TFT13_Beardy",
+          "cost": 3
+      },
+      {
+          "name": "レニー",
+          "eng_name": "TFT13_Chainsaw",
+          "cost": 3
+      },
+      {
+          "name": "スミーチ",
+          "eng_name": "TFT13_Gremlin",
+          "cost": 3
+      },
+      {
+          "name": "カシオペア",
+          "eng_name": "TFT13_Cassiopeia",
+          "cost": 3
+      },
+      {
+          "name": "エズリアル",
+          "eng_name": "TFT13_Ezreal",
+          "cost": 3
+      },
+      {
+          "name": "ブリッツクランク",
+          "eng_name": "TFT13_Blitzcrank",
+          "cost": 3
+      },
+      {
+          "name": "ゾーイ",
+          "eng_name": "TFT13_Zoe",
+          "cost": 4
+      },
+      {
+          "name": "アンベッサ",
+          "eng_name": "TFT13_Ambessa",
+          "cost": 4
+      },
+      {
+          "name": "ガレン",
+          "eng_name": "TFT13_Garen",
+          "cost": 4
+      },
+      {
+          "name": "コーキ",
+          "eng_name": "TFT13_Corki",
+          "cost": 4
+      },
+      {
+          "name": "ハイマーディンガー",
+          "eng_name": "TFT13_Heimerdinger",
+          "cost": 4
+      },
+      {
+          "name": "エリス",
+          "eng_name": "TFT13_Elise",
+          "cost": 4
+      },
+      {
+          "name": "イラオイ",
+          "eng_name": "TFT13_Illaoi",
+          "cost": 4
+      },
+      {
+          "name": "トゥイッチ",
+          "eng_name": "TFT13_Twitch",
+          "cost": 4
+      },
+      {
+          "name": "ドクター・ムンド",
+          "eng_name": "TFT13_DrMundo",
+          "cost": 4
+      },
+      {
+          "name": "エコー",
+          "eng_name": "TFT13_Ekko",
+          "cost": 4
+      },
+      {
+          "name": "ヴァイ",
+          "eng_name": "TFT13_Vi",
+          "cost": 4
+      },
+      {
+          "name": "シルコ",
+          "eng_name": "TFT13_Silco",
+          "cost": 4
+      },
+      {
+          "name": "モルデカイザー",
+          "eng_name": "TFT13_Mordekaiser",
+          "cost": 5
+      },
+      {
+          "name": "ジンクス",
+          "eng_name": "TFT13_Jinx",
+          "cost": 5
+      },
+      {
+          "name": "セヴィカ",
+          "eng_name": "TFT13_Lieutenant",
+          "cost": 5
+      },
+      {
+          "name": "ランブル",
+          "eng_name": "TFT13_Rumble",
+          "cost": 5
+      },
+      {
+          "name": "ジェイス",
+          "eng_name": "TFT13_Jayce",
+          "cost": 5
+      },
+      {
+          "name": "ルブラン",
+          "eng_name": "TFT13_LeBlanc",
+          "cost": 5
+      },
+      {
+          "name": "マルザハール",
+          "eng_name": "TFT13_Malzahar",
+          "cost": 5
+      },
+      {
+          "name": "ケイトリン",
+          "eng_name": "TFT13_Caitlyn",
+          "cost": 5
+      }
+  ]
+}

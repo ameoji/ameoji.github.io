@@ -1,22 +1,20 @@
 {
   "compositions":[
     {
-      "name": "シェイプシフターカシオペア",
+      "name": "",
+      "evaluation": "A",
+      "features":[
+      ],
       "power_type": [
-        "AP"
       ],
       "pure_synergy": [
-        "シェイプシフター"
       ],
       "mix_synergy": [
-    
       ],
       "specific_items": [
-        "グインソー"
       ],
       "memo": [
-        
-      ] 
+      ]
     }
   ]
 }
